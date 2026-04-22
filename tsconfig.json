@@ -3,6 +3,7 @@
         /* Base Options: */
         "esModuleInterop": true, // Enables default imports from CommonJS modules
         "lib": ["es2022"], // Includes modern ES features in the type system
+        "types": ["node"], // Explicitly include Node globals (fetch, URLSearchParams, etc.)
         "target": "es2022", // Sets the JavaScript version output
         "skipLibCheck": true, // Skips type checking of declaration files (*.d.ts)
         "allowJs": true, // Allows JavaScript files in the project
